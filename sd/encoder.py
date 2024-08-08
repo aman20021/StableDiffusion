@@ -1,11 +1,6 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-
-
-import torch
-from torch import nn
-from torch.nn import functional as F
 from decoder import VAE_AttentionBlock, VAE_ResidualBlock
 
 class VAE_Encoder(nn.Sequential):
